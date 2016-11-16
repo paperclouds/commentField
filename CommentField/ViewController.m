@@ -22,6 +22,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
+    self.title = @"评论框";
+    
     _hcTextView = [[HCTextView alloc]initWithFrame:CGRectMake(0, self.view.height-48.5, self.view.width, 48.5)];
     [self.view addSubview:_hcTextView];
     
